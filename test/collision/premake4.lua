@@ -1,4 +1,3 @@
-
 	project "Test_BulletCollision"
 		
 	kind "ConsoleApp"
@@ -37,10 +36,12 @@
 		"../../src/BulletCollision/CollisionShapes/btConvexInternalShape.cpp",
 		"../../src/BulletCollision/CollisionShapes/btCollisionShape.cpp",
 		"../../src/BulletCollision/CollisionShapes/btConvexPolyhedron.cpp",
+		"../../src/BulletCollision/CollisionShapes/btConcaveShape.cpp",
+		"../../src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.cpp",
+		"../../src/BulletCollision/CollisionShapes/btTriangleCallback.cpp",
 
 	}
 
 	if os.is("Linux") then
                 links {"pthread"}
         end
-
